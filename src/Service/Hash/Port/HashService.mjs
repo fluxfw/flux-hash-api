@@ -16,13 +16,15 @@ export class HashService {
     /**
      * @param {Blob | Buffer | string} value
      * @param {string} algorithm
+     * @param {number | null} radix
      * @returns {Promise<string>}
      */
-    async generateHash(value, algorithm) {
+    async generateHash(value, algorithm, radix = null) {
         return (await import("../Command/GenerateHashCommand.mjs")).GenerateHashCommand.new()
             .generateHash(
                 value,
-                algorithm
+                algorithm,
+                radix
             );
     }
 }
