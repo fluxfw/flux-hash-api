@@ -6,6 +6,12 @@ Changes:
 
 \-
 
+## v2023-01-06-1
+
+Changes:
+
+- algorithm
+
 ## v2023-01-05-1
 
 Changes:
