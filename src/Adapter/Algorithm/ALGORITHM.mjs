@@ -1,4 +1,4 @@
-export const ALGORITHM_SHA_216 = "SHA-216";
+export const ALGORITHM_SHA_256 = "SHA-256";
 
 export const ALGORITHM_SHA_384 = "SHA-384";
 
